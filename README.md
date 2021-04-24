@@ -4,7 +4,7 @@ The idea behind this project is to build the interaction between a listener user
 My app consists of 2 main views for the listener and the broadcaster, managed through the routes `/listener` and `/broadcaster`, respectively.
 
 ## Usage
-Run `npm start` and navigate to `/listener` in the browser to view the listener screen. Pressing the green microphone icon indicates that the user has requested to join and navigates to `/broadcaster`, showing the broadcaster screen. Here, the broadcaster can toggle the requests icon to view the list of requests. Pressing either the approve or deny icons will navigate back to `/listener`, and the listener screen will now display either the listener or broadcaster screen, depending on if the request was approved or denied.
+Navigate to `/listener` in the browser to view the listener screen. Pressing the green microphone icon indicates that the user has requested to join and navigates to `/broadcaster`, showing the broadcaster screen. Here, the broadcaster can toggle the requests icon to view the list of requests. Pressing either the approve or deny icons will navigate back to `/listener`, and the listener screen will now display either the listener or broadcaster screen, depending on if the request was approved or denied.
 
 ## State Management
 The app manages two main contexts using **Context API**: one for the user, and one for the broacast. The idea behind 2 contexts is that the user context manages the state for the user, and the broadcast context manages the state for the broadcast.
